@@ -1,0 +1,13 @@
+# workflows/arc_agi_mastermind.yaml
+name: ARC-AGI Ensemble Reasoning Workflow
+version: 1.0.0
+description: "11-niche ensemble reasoning workflow orchestrating parallel AI loops for complex cognitive tasks."
+master_node:
+  orchestrator: "Root Cognitive Engine"
+niche_nodes:
+  - id: "niche_spatial_reasoning"
+    role: "Geometric and Spatial Pattern Recognition"
+  - id: "niche_abstraction_core"
+    role: "Abstract Rule Extraction and Logic Mapping"
+  - id: "niche_temporal_logic"
+    role: "Sequential and Temporal Dependency Analysis"
