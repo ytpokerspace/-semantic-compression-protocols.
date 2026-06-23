@@ -1,0 +1,97 @@
+💠 CSC-LCH 💠
+🗜️ Cascading Semantic Compression
+💧 Lazy Context Hydration
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+🪨 T0 — BEDROCK
+║ 🔒 immutable anchor
+║ 🆔 identity constant
+║ ∞ never compressed
+║ 🏛️ foundation of all tiers
+║ sits OUTSIDE the stack
+▼
+
+🌊 T1 — CORE SEMANTIC
+║ 🧠 primary meaning
+║ 🔑 key concepts
+║ 💎 high value / always hot
+║ 🗜️→💎 compress but preserve
+▼
+
+🌿 T2 — ACTIVE CONTEXT
+║ 🔄 current session
+║ 📌 pinned references
+║ 🌡️ warm / frequently touched
+║ 🗜️→📦 compress on idle
+▼
+
+💡 T3 — SUPPORTING DETAIL
+║ 📎 examples & elaboration
+║ 🔗 linked concepts
+║ 🌤️ cool / on-demand
+║ 🗜️→🌫️ compress aggressively
+▼
+
+🔮 T4 — DISTANT MEMORY
+║ 🕰️ prior sessions
+║ 📜 historical context
+║ 🧊 cold / rarely needed
+║ 🗜️→❄️ deep compress
+▼
+
+🌌 T5 — ARCHIVE VOID
+║ 🗄️ long-term storage
+║ 💤 dormant knowledge
+║ 🌑 frozen / near-zero cost
+║ 🗜️→🫙 sealed
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+💧 LAZY HYDRATION ENGINE
+
+🫙❄️🧊🌫️📦  ←  💤 dormant
+↓  🔍 query arrives
+🎯 semantic match?
+↓  ✅ yes
+💧 hydrate only what's needed
+↓
+🌿→💡→🔮  surface on demand
+↓
+💨 re-compress after use
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 CASCADE FLOW
+
+🔍 input
+↓
+🪨 anchor check
+↓
+🌊 semantic match
+↓
+🌿 active scan
+↓
+💡 detail fetch?  →  💧hydrate
+↓
+🔮 memory probe?  →  ❄️thaw
+↓
+🌌 archive?       →  🫙unseal
+↓
+🎯 answer surface
+↓
+🗜️ recompress all touched tiers
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗝️ LEGEND
+
+🪨 = immutable bedrock
+🗜️ = compress
+💧 = hydrate
+❄️ = frozen/cold
+🔥 = hot/active
+🎯 = semantic hit
+💨 = recompress
+🔁 = cascade loop
+💠 = framework identity
