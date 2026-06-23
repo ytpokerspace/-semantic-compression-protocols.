@@ -1,0 +1,22 @@
+{
+  // database/latent_modifiers_schema.json
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Latent Modifiers Semantic Compression Schema",
+  "type": "object",
+  "properties": {
+    "modifier_id": {
+      "type": "string",
+      "description": "Unique identifier for the latent modifier."
+    },
+    "semantic_vector": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "High-dimensional embedding representation."
+    },
+    "token_mapping": {
+      "type": "string",
+      "description": "Mapped token equivalent for the compressed state."
+    }
+  },
+  "required": ["modifier_id", "semantic_vector", "token_mapping"]
+}
