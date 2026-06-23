@@ -1,0 +1,71 @@
+🪨 T0 — BEDROCK (500 tokens → 50 effective)
+  ✓ Law firm identity: "International IP firm, patent specialists"
+  ✓ Task domain: "Patent validity analysis"
+  ✓ Output format: "Detailed memo with risk assessment"
+  ✓ Client name: [Anchor: x2f1_client]
+  ✓ Constraints: "Cite precedent, flag uncertainties"
+  
+  Compression: 90% reduction
+  Effective tokens: 50
+
+🌊 T1 — CORE SEMANTIC (5,500 tokens → 1,100 effective)
+  ✓ Prior art search results (drift-triggered, re-attend every 5 turns)
+    - 15 patents summarized
+    - Relevance scores
+    - Key conflicting claims
+  
+  ✓ Legal precedent cases (slow-drift context)
+    - 5 landmark rulings
+    - Application to this case
+    - Risk implications
+  
+  Compression: 80% reduction (moderate, preserve meaning)
+  Re-attend frequency: Every 5 exchanges
+  Effective tokens: 1,100
+
+🌿 T2 — ACTIVE CONTEXT (8,500 tokens → 8,500 effective)
+  ✓ Current patent document (full fidelity, full attention every turn)
+    - Claims section (critical, 100% preserved)
+    - Specification details (current focus)
+    - Specific claims being analyzed
+  
+  ✓ Current task details (full attention)
+    - "Compare claims to prior art X, Y, Z"
+    - "Flag validity risks"
+    - "Provide enforcement strategy"
+  
+  ✓ Immediate prior 2 exchanges
+    - Last analysis done
+    - Questions raised
+    - Decisions made
+  
+  Compression: 0% (no compression, full detail)
+  Re-attend frequency: Every turn
+  Effective tokens: 8,500
+
+💡 T3 — SUPPORTING DETAIL (4,000 tokens → 800 effective)
+  ✓ Speculative prefetch (staged, low-weight)
+    - Likely follow-up questions about enforcement
+    - Related patent families user might ask about
+    - Alternative claim interpretations
+  
+  Compression: 80% aggressive compression
+  Confidence threshold: 0.72
+  Effective tokens: 800
+
+🔮 T4 — DISTANT MEMORY (5,500 tokens → 275 effective)
+  ✓ Conversation history (cold archive, on-demand only)
+    - Prior 10+ exchanges
+    - Old analysis completed
+    - Prior decisions
+  
+  Compression: 95% extreme compression
+  Recall trigger: "Remember when we analyzed patent X?"
+  Effective tokens: 275
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+TOTAL EFFECTIVE TOKENS: 11,125 tokens
+RAW TOKENS PASSED: 26,000 tokens
+
+TOKEN REDUCTION: 57.2%
